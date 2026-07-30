@@ -50,3 +50,7 @@ runs/
 *.tar
 *.zip
 *.gz
+datasets/**
+!datasets/
+!datasets/**/
+!datasets/**/.gitkeep
