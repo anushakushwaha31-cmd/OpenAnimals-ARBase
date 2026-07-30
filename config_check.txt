@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/DATA2/student/OpenAnimals_ARBase/OpenAnimals-main/OpenAnimals-main/tools/train_net.py", line 13, in <module>
+    from openanimals.engine import DefaultTrainer, default_argument_parser, default_setup, launch
+  File "/DATA2/student/OpenAnimals_ARBase/OpenAnimals-main/OpenAnimals-main/openanimals/engine/__init__.py", line 13, in <module>
+    from .hooks import *
+  File "/DATA2/student/OpenAnimals_ARBase/OpenAnimals-main/OpenAnimals-main/openanimals/engine/hooks.py", line 16, in <module>
+    from openanimals.evaluation.testing import flatten_results_dict
+  File "/DATA2/student/OpenAnimals_ARBase/OpenAnimals-main/OpenAnimals-main/openanimals/evaluation/__init__.py", line 2, in <module>
+    from .reid_evaluation import ReidEvaluator
+  File "/DATA2/student/OpenAnimals_ARBase/OpenAnimals-main/OpenAnimals-main/openanimals/evaluation/reid_evaluation.py", line 18, in <module>
+    from openanimals.utils.compute_dist import build_dist
+  File "/DATA2/student/OpenAnimals_ARBase/OpenAnimals-main/OpenAnimals-main/openanimals/utils/compute_dist.py", line 10, in <module>
+    import faiss
+  File "/home/student/anaconda3/lib/python3.12/site-packages/faiss/__init__.py", line 16, in <module>
+    from .loader import *
+  File "/home/student/anaconda3/lib/python3.12/site-packages/faiss/loader.py", line 134, in <module>
+    from .swigfaiss import *
+  File "/home/student/anaconda3/lib/python3.12/site-packages/faiss/swigfaiss.py", line 13, in <module>
+    from . import _swigfaiss
+ImportError: /home/student/anaconda3/lib/python3.12/site-packages/faiss/../../../libfaiss.so: undefined symbol: __libc_single_threaded
