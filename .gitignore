@@ -54,3 +54,4 @@ datasets/**
 !datasets/
 !datasets/**/
 !datasets/**/.gitkeep
+**/.ipynb_checkpoints/
