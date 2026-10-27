@@ -1,8 +1,37 @@
-<<<<<<< HEAD
+## OpenAnimals-ARBase: Animal Re-Identification
+
+Reproduction and evaluation of the ARBase approach for animal re-identification using the OpenAnimals framework during a research internship at IIT (BHU), Varanasi.
+
+## Objectives
+- Reproduce the animal re-identification pipeline.
+- Evaluate performance across wildlife datasets.
+- Compare experimental results with the original paper.
+
+## Tech Stack
+- Python, PyTorch, Deep Learning
+- Computer Vision, CUDA
+- OpenAnimals framework
+
+## Datasets Evaluated
+- HyenaID2022
+- LeopardID2022
+- SeaTurtleIDHeads
+- WhaleSharkID
+
+## Limitations
+The reproduced results were lower than those reported in the original paper. Dataset splits, preprocessing, configuration differences, and training randomness are possible reasons that require further investigation.
+
+## Conclusion
+This project provided practical experience in deep learning, animal re-identification, model evaluation, and research reproducibility.
+
+## References
+- Hou et al. (2025), *OpenAnimals: Revisiting Person Re-Identification for Animals Towards Better Generalization*, ICCV.
+- He et al. (2023), *FastReID: A PyTorch Toolbox for General Instance Re-Identification*, ACM Multimedia.
+- Čermák et al. (2024), *WildlifeDatasets: An Open-Source Toolkit for Animal Re-Identification*, WACV.
+
 
 **OpenAnimals** is a flexible repository that aims to help researchers get started on **Animal Re-Identificatoin** quickly. 
 This repository is built upon [FastReID](https://github.com/JDAI-CV/fast-reid) and [WildlifeDatasets](https://github.com/WildlifeDatasets/wildlife-datasets).
-
 
 ## Installation
 
@@ -45,4 +74,4 @@ If you use OpenAnimals in your research, please use the following BibTeX entry f
 =======
 # OpenAnimals-ARBase
 Reproduction and evaluation of ARBase for animal re-identification using the OpenAnimals framework
->>>>>>> 03d3c5e8a146ad45346ed561e5a5dc839d9df1c2
+
