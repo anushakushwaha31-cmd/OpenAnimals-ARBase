@@ -71,7 +71,6 @@ If you use OpenAnimals in your research, please use the following BibTeX entry f
   year={2025}
 }
 ```
-=======
 # OpenAnimals-ARBase
 Reproduction and evaluation of ARBase for animal re-identification using the OpenAnimals framework
 
